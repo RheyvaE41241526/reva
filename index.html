@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV Rheyva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MENU -->
+<div class="menu-btn" onclick="openMenu()">☰</div>
+
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+    <span class="close-btn" onclick="closeMenu()">✖</span>
+
+    <a href="#tentang">Tentang</a>
+    <a href="#skills">Skills</a>
+    <a href="#proyek">Proyek</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#sertifikat">Sertifikat</a>
+    <a href="#kontak">Kontak</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+    <img src="image/profile.png" class="profile">
+    <h1>Rheyva Whiny Asmarany</h1>
+    <p>Web Developer | Mahasiswa Informatika</p>
+
+    <a href="CV_Rheyva.pdf" download class="btn-download">
+        📄 Download CV
+    </a>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p>
+        Saya adalah mahasiswa semester 4 Program Studi Teknik Informatika di Politeknik Negeri Jember 
+        yang memiliki minat di bidang pengembangan aplikasi, UI/UX Design, dan pengembangan web. 
+        Saya terbiasa menggunakan bahasa pemrograman seperti HTML, CSS, dan Java serta mampu 
+        merancang antarmuka yang user-friendly.
+    </p>
+    <p>
+        Saat ini saya memiliki IPK komulatif <span class="highlight">3,63</span> yang mencerminkan 
+        konsistensi dalam belajar. Saya merupakan pribadi yang aktif, adaptif, dan memiliki semangat tinggi.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Laravel</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROYEK -->
+<section id="proyek">
+    <h2>Proyek</h2>
+
+    <!-- ROTIBAKAR -->
+    <div class="project-box">
+        <h3>Rotibakar Hongerloop</h3>
+        <div class="slider">
+            <img src="image/project1.png">
+            <img src="image/project2.png">
+            <img src="image/project3.png">
+            <img src="image/project4.png">
+            <img src="image/project5.png">
+            <img src="image/project6.png">
+            <img src="image/project7.png">
+            <img src="image/project8.png">
+            <img src="image/project9.png">
+            <img src="image/project10.png">
+            <img src="image/project11.png">
+            <img src="image/project12.png">
+        </div>
+    </div>
+
+    <!-- MOKAPOS -->
+    <div class="project-box">
+        <h3>MokaPos</h3>
+        <div class="slider">
+            <img src="image/foto1.png">
+            <img src="image/foto2.png">
+            <img src="image/foto3.png">
+            <img src="image/foto4.png">
+            <img src="image/foto5.png">
+            <img src="image/foto6.png">
+            <img src="image/foto7.png">
+            <img src="image/foto8.png">
+            <img src="image/foto9.png">
+        </div>
+    </div>
+
+    <!-- POSCARE -->
+    <div class="project-box">
+        <h3>PosCare</h3>
+        <div class="slider">
+            <img src="image/ss1.png">
+            <img src="image/ss2.png">
+            <img src="image/ss3.png">
+            <img src="image/ss4.png">
+            <img src="image/ss5.png">
+            <img src="image/ss6.png">
+            <img src="image/ss7.png">
+            <img src="image/ss8.png">
+            <img src="image/ss9.png">
+            <img src="image/ss10.png">
+            <img src="image/ss11.png">
+            <img src="image/ss12.png">
+            <img src="image/ss13.png">
+    
+        </div>
+    </div>
+
+</section>
+
+<!-- PENGALAMAN -->
+<section id="pengalaman">
+    <h2>Pengalaman</h2>
+    <div class="card">
+        <p>Magang Web Developer</p>
+    </div>
+</section>
+
+<!-- SERTIFIKAT -->
+<section id="sertifikat">
+    <h2>Sertifikat</h2>
+
+    <div class="grid">
+        <div class="item">
+            <img src="image/ept.png">
+            <p>Sertifikat mengikuti ept</p>
+        </div>
+
+        <div class="item">
+            <img src="image/study club.png">
+            <p>Sertifikat study club UI/UX</p>
+        </div>
+        <div class="item">
+            <img src="image/bootcamp.png">
+            <p>Sertifikat boothcamp UI/UX</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- KONTAK -->
+<section id="kontak">
+    <h2>Kontak</h2>
+    <div class="card">
+        <p>Email: rheyvawhinyasmarany@gmail.com</p>
+    </div>
+</section>
+
+<script>
+function openMenu() {
+    document.getElementById("sidebar").style.right = "0";
+}
+
+function closeMenu() {
+    document.getElementById("sidebar").style.right = "-300px";
+}
+</script>
+
+</body>
+</html>
